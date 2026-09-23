@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+.env
+.adk/
+.chroma/
+logs/
+
+# local only: docs, tests, benchmark
+README.md
+tests/
+benchmark.py
+benchmark_results*.md
+naive_agent/
